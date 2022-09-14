@@ -1,4 +1,5 @@
 pool:
+
   vmImage: ubuntu-20.04
 
 trigger:
@@ -74,3 +75,5 @@ steps:
   - task: PublishBuildArtifacts@1
 
     displayName: 'Publish Artifact: drop'
+
+
